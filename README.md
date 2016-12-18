@@ -4,9 +4,9 @@ A Python package for formatting output of complex data structures. Work well wit
 一个Python包，用于格式化输出复杂数据结构（元组、集合、列表、字典及其嵌套）。尤其用于显示中文。
 
 ## Installation
-Just put the "cprint.py" into your dir ".../Python/Lib", or in your project.
+EN: Just put the "cprint.py" into your dir ".../Python/Lib", or in your project.
 
-将“cprint.py”放入Python安装目录".../Python/Lib"，或者项目文件夹中。
+ZH:将“cprint.py”放入Python安装目录".../Python/Lib"，或者项目文件夹中。
 
 ## Usage
 ```
@@ -14,9 +14,10 @@ from cprint import cprint
 cprint(obj1)
 ```
 ## Features
+EN:
 1. Use indentation to show the structure of object.
 2. Print coded character as its character instead of its code.
-
+ZH:
 1. 使用缩进来表现对象的组成结构。
 2. 打印编码字符（Unicode/UTF-8/GBK）时，打印可读的字符，而非字符编码。
 
