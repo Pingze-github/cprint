@@ -6,7 +6,7 @@ A Python package for formatting output of complex data structures. Work well wit
 ## Installation
 EN: Just put the "cprint.py" into your dir ".../Python/Lib", or in your project.
 
-ZH:将“cprint.py”放入Python安装目录".../Python/Lib"，或者项目文件夹中。
+ZH: 将“cprint.py”放入Python安装目录".../Python/Lib"，或者项目文件夹中。
 
 ## Usage
 ```
@@ -15,9 +15,12 @@ cprint(obj1)
 ```
 ## Features
 EN:
+
 1. Use indentation to show the structure of object.
 2. Print coded character as its character instead of its code.
+
 ZH:
+
 1. 使用缩进来表现对象的组成结构。
 2. 打印编码字符（Unicode/UTF-8/GBK）时，打印可读的字符，而非字符编码。
 
