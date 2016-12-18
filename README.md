@@ -31,9 +31,10 @@ obj1 = {
 }
 print(obj1)
 print('\n')
-import pprint
-pprint.pprint(obj1)
+from pprint import pprint
+pprint(obj1)
 print('\n')
+from cprint import cprint
 cprint(obj1)
 ```
 #### Output
@@ -48,7 +49,9 @@ cprint(obj1)
 {
     data: [
         {
-,
+            content: 西红柿,
+            data_id: 1
+        },
         {
             content: 胡萝卜,
             data_id: 2
